@@ -1,0 +1,10 @@
+# 26/03/2026
+# Movie Review Analyzer
+
+reviews = ["Great movie", "Bad acting", "Loved it", "Hated the plot", "Amazing visuals"]
+pos_words = ["great", "loved", "amazing"]
+
+for r in reviews:
+    score = sum(1 for word in r.lower().split() if word in pos_words)
+    sentiment = "Positive" if score > 0 else "Negative"
+    print(f"Review: {r} -> {sentiment}")
