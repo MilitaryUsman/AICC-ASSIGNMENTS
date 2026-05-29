@@ -1,0 +1,7 @@
+# 28/03/2026
+# Break the AI
+
+prompt = "If I have 3 sisters, and each sister has one brother, how many brothers do I have?"
+# AI often fails this logic.
+print(f"Prompt Sent: {prompt}")
+print("Result: Checking for 'Logic Loop' or 'Hallucination'")
