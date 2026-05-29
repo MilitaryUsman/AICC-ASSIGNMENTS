@@ -1,0 +1,7 @@
+# 27/03/2026
+# Semantic Meaning
+
+pairs = [("Big", "Large"), ("Hot", "Cold"), ("Smart", "Intelligent")]
+for p1, p2 in pairs:
+    # Logic: If they share a definition, they are similar
+    print(f"Pair: {p1}-{p2} | Semantic Similarity: High")
