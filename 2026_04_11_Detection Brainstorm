@@ -1,0 +1,6 @@
+# 11/04/2026
+# Detection Brainstorm
+
+uses = ["Face Unlock", "Traffic Monitoring", "Tumor Detection", "Robot Vacuum", "Gesture Control"]
+print(f"Top 5 Computer Vision Uses: {', '.join(uses)}")
+# Concept: Face detection usually returns [x, y, width, height]
