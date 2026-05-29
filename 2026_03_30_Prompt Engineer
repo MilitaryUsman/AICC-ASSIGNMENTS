@@ -1,0 +1,7 @@
+# 30/03/2026
+# Prompt Engineer
+
+weak = "Write a study plan."
+strong = "Act as a Data Science Tutor. Create a 4-week study plan for a beginner learning Python for ML. Use a table."
+
+print(f"Weak: {weak}\nStrong: {strong}")
