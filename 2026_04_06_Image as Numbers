@@ -1,0 +1,9 @@
+import cv2
+
+# 06/04/2026
+# Image as Numbers
+
+img = cv2.imread('image.jpg') # Ensure an image exists in the folder
+if img is not None:
+    print(f"Shape: {img.shape}") # (Height, Width, Channels)
+    print(f"First Pixel (BGR): {img[0,0]}")
