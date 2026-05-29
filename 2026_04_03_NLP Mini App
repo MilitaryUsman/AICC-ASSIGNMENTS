@@ -1,0 +1,7 @@
+# 03/04/2026
+# NLP Mini App
+
+text = "Machine learning and AI are changing the world of technology."
+words = text.lower().split()
+keywords = [w for w in words if len(w) > 3]
+print(f"Extracted Keywords: {keywords}")
